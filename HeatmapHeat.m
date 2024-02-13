@@ -13,14 +13,17 @@ tiledlayout(2, 2)               W
     nexttile
     s = symsum(T, k ,a,b);
     fsurf(s, [0 1 0 1])
+    view(2)
 b=100;
     nexttile
     s = symsum(T, k ,a,b);
     fsurf(s, [0 1 0 1])
+    view(2)
 
 
 b = 1000;
-    nexttile([1,2])
+    nexttile
     s = symsum(T, k ,a,b);
     fsurf(s, [0 1 0 1])
+    view(2)
 
